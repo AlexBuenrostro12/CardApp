@@ -1,0 +1,16 @@
+.Card-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    gap: 0.25rem;
+    padding: 0.5rem;
+}
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:  75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: .75rem;
+    margin: 2.5rem;
+}
