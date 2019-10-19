@@ -22,22 +22,26 @@ const Card = () => {
                 });
     }, []);
     
-   
+    console.log('images: ', images);
     return (
         <div className="Card-container">
-            {images && images.map(img => (
+            <div 
+                className="Card"
+            >
                 <div 
-                    key={img.id}
-                    className="Card"
+                    className="Images-container"
                 >
-                    <Image 
-                        image={img.urls.regular}
-                        alt={img.alt_description}
-                    />
-                    <Name name={img.user.name} />
-                    <Description description={img.user.bio} />
+                    {images && images.map(img => (
+                        <Image 
+                            key={img.id}
+                            image={img.urls.regular}
+                            alt={img.alt_description}
+                        />
+                    ))}
                 </div>
-            ))}
+                {images && <Name name={images[0].user.name} />}
+                {images && <Description description={images[0].user.bio} />}
+            </div>
         </div>
 
     );

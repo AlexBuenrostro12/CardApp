@@ -1,21 +1,10 @@
 .Image {
     align-self: center;
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;
+    height: 18rem;
     border-top-left-radius: .75rem;
     border-top-right-radius: .75rem;
-}
-
-.Image:hover {
-    animation: translate 2s infinite alternate-reverse;
-    border-bottom-left-radius: .75rem;
-    border-bottom-right-radius: .75rem;
-}
-
-@keyframes translate {
-    from {
-        transform: translate(100%, 0%) rotate(180deg);
-    }
+    margin-right: 1.5rem;
 }
 
 h2 {

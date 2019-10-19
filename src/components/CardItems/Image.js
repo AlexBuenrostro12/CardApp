@@ -6,6 +6,6 @@ const Image = (props) => (
         className="Image"
         alt={props.alt}
         src={props.image} />
-);
+);    
 
 export default Image;

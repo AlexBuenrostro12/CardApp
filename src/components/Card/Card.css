@@ -5,13 +5,28 @@
     gap: 0.25rem;
     padding: 0.5rem;
 }
+
 .Card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width:  15rem;
+    width:  18rem;
     background-color: rgb(255, 255, 255);
     border-radius: .75rem;
     margin: 2.5rem;
     overflow: hidden;
+}
+
+.Images-container {
+    display: inline-flex;
+}
+
+.Images-container:hover {
+    animation: translate 6s infinite alternate-reverse;
+}
+
+@keyframes translate {
+    from {
+        transform: translateX(-2200px);
+    }
 }
