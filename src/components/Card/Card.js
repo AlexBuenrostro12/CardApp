@@ -21,8 +21,6 @@ const Card = () => {
             
                 });
     }, []);
-
-    console.log('images: ', images);
     
    
     return (
@@ -33,7 +31,6 @@ const Card = () => {
                     className="Card"
                 >
                     <Image 
-                        className="Image"
                         image={img.urls.regular}
                         alt={img.alt_description}
                     />
