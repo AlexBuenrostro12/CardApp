@@ -1,0 +1,22 @@
+.Image {
+    align-self: center;
+    width: 18rem;
+    height: 18rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    margin-right: 1.5rem;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 77, 100);
+    align-self: flex-start;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 77, 80);
+    margin: 3px;
+}
